@@ -98,4 +98,15 @@ function draw() {
   // tranaja 4 tipo de datos, radianes, contantes(HALF-PI), ANGULOS (radians(350))
 
   arc(300, 300, 300, 300, 4.71, 0);
+  // -------------------------------
+  // trigulos
+  // funciones para evitar el relleno de las figuras es / nofill()
+  nofill();
+  // para eliminar el contorno de las figuras: noStroke();
+  noStroke();
+  // es el indicardor del tramaño del trazo en pixeles strokeWeight();
+  strokeWeight(6);
+  // el driangulos se dibujo con los 3 puntos a(x1,y1), b(x2,y2), c(x3,y3)
+  triangle(250, 150, 400, 400, 100, 400);
+  // (si seconvina las 2 funciones obiamente no tenemos nada)
 }
